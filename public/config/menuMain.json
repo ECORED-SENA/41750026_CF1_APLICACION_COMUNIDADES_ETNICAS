@@ -1,0 +1,102 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "intro",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","intro"],
+    "path": "pages/1-tema.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "normativa",
+    "title": "1. Normativa ambiental nacional e internacional",
+    "breadcrumb": ["Inicio","normativa"],
+    "path": "pages/2-tema.html"
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-play-circle",
+    "slug": "recursos",
+    "title": "2. Recursos naturales",
+    "breadcrumb": ["Inicio","recursos"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "recursos",
+        "title": "2.1 Tipos",
+        "anchor": "tipos"
+      },
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "recursos",
+        "title": "2.2 Ecosistemas",
+        "anchor": "ecosistemas"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "recursos",
+        "title": "2.3 Componentes biofísicos",
+        "anchor": "componentes"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "investigacion",
+    "title": "3. Investigación con enfoque participativo",
+    "breadcrumb": ["Inicio","investigacion"],
+    "path": "pages/4-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "investigacion",
+        "title": "3.1 Tipos",
+        "anchor": "tipos1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "investigacion",
+        "title": "3.2 Técnicas y métodos",
+        "anchor": "tecnicas"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "investigacion",
+        "title": "3.3 Prácticas y cosmovisión",
+        "anchor": "practicas"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-file-text",
+    "slug": "tecnicas1",
+    "title": "4. Técnicas de recolección de información",
+    "breadcrumb": ["Inicio","tecnicas1"],
+    "path": "pages/5-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tecnicas1",
+        "title": "4.1 Tipos y características",
+        "anchor": "tipos2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tecnicas1",
+        "title": "4.2 Herramientas",
+        "anchor": "herramientas"
+      }
+    ]
+  }
+]
